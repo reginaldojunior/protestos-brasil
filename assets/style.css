@@ -9,10 +9,10 @@ nav {
 }
 
 .background {
-	background-image: url(background.jpg);
+	background-image: url(https://d3oilk4eevknv6.cloudfront.net/newsweb/mediatools/image/image/000/001/826/335_1280x853_780345352_900x600.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-position: 100% 100%;
+	background-position: 100% 40%;
 	/* background-size: auto; */
 	background-size: cover;
 	background-color: #384a5e;
@@ -21,6 +21,6 @@ nav {
 	height: 100%;
 	min-height: 600px;
 	display: table-caption;
-	position: absolute;
+	position: relative;
 	text-align: center;
 }
