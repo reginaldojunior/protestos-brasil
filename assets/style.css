@@ -24,3 +24,20 @@ nav {
 	position: relative;
 	text-align: center;
 }
+
+.footer {
+	left:0px;
+	bottom:0px;
+	text-align: center;
+	height:80px;
+	width:100%;
+	background:#999;
+	margin-bottom: -20px;
+	padding-top: 10px !important;
+}
+
+/* IE 6 */
+* html .footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}

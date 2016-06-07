@@ -229,7 +229,12 @@
 				</div>
 			</div>
 		</div>
-            
+
+		<div class="row">            
+			<div class="col s12 grey lighten-4 footer">
+				<p>Projeto independente apoiado pela empresa <a href="http://www.ciawn.com.br">CiaWN</a> </p>
+			</div>
+		</div>
 	</div>
 	        
 
